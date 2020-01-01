@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-    <TemplateURL>https://raw.githubusercontent.com/Monitorr/unraid-templates/templates/logarr.xml</TemplateURL>
+    <TemplateURL>https://raw.githubusercontent.com/Monitorr/unraid-templates/master/templates/logarr.xml</TemplateURL>
     <Name>Logarr</Name>
     <Repository>monitorr/logarr</Repository>
     <Registry>https://hub.docker.com/r/monitorr/logarr/</Registry>
