@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Container version="2">
+    <TemplateURL>https://raw.githubusercontent.com/Monitorr/unraid-templates/templates/logarr.xml</TemplateURL>
+    <Name>Logarr</Name>
+    <Repository>monitorr/logarr</Repository>
+    <Registry>https://hub.docker.com/r/monitorr/logarr/</Registry>
+    <Network>bridge</Network>
+    <Privileged>false</Privileged>
+    <Support>https://github.com/Monitorr/logarr/issues/</Support>
+    <Project>https://github.com/Monitorr/logarr/</Project>
+    <Overview>Self-hosted, single-page, log consolidation tool written in PHP&#xD;
+  &#xD;
+  [br][br]&#xD;
+    </Overview>
+    <Category>Tools</Category>
+    <WebUI>http://[IP]:[PORT:80]</WebUI>
+    <Icon>https://github.com/Monitorr/Logos/raw/master/logo_black_glow_text_logarr.png</Icon>
+    <DonateText>Buy us a beer!</DonateText>
+    <DonateLink>https://paypal.me/monitorrapp</DonateLink>
+    <Description>Self-hosted, single-page, log consolidation tool written in PHP&#xD;
+  &#xD;
+  [br][br]&#xD;
+    </Description>
+    <Networking>
+        <Mode>bridge</Mode>
+        <Publish>
+            <Port>
+                <HostPort>80</HostPort>
+                <ContainerPort>80</ContainerPort>
+                <Protocol>tcp</Protocol>
+            </Port>
+        </Publish>
+    </Networking>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/user/appdata/logarr</HostDir>
+            <ContainerDir>/app</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
+    <Environment/>
+    <Labels/>
+    <Config Name="WebUI" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">80</Config>
+    <Config Name="Config" Target="/app" Default="/mnt/user/appdata/logarr" Mode="rw" Description="Container Path: /app" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/appdata/logarr</Config>
+</Container>
