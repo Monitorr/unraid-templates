@@ -1,10 +1,5 @@
 
-![monitorr](https://github.com/Monitorr/Logos/blob/master/monitorr_text_white_glow_banner.png)
-
 ![monitorr](https://raw.githubusercontent.com/Monitorr/logos/master/monitorr_text_white_glow_banner.png)
-
-![monitorr](https://raw.githubusercontent.com/Monitorr/Monitorr/master/assets/img/monitorrbanner.png)
-
 
 ## Webapps to Monitorr your application's uptime and logs.
 
