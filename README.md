@@ -4,7 +4,7 @@
 
  ## Webapps to Monitorr your application's uptime and logs.
 
- ### **Monitorr**:  [![GitHub Master-release](https://img.shields.io/github/release/monitorr/monitorr.svg?style=flat)](https://github.com/monitorr/monitorr/releases) [![Docker build](https://img.shields.io/docker/build/monitorr/monitorr.svg?maxAge=2592000)](https://hub.docker.com/r/monitorr/monitorr/)
+### **Monitorr**:  [![GitHub Master-release](https://img.shields.io/github/release/monitorr/monitorr.svg?style=flat)](https://github.com/monitorr/monitorr/releases) [![Docker build](https://img.shields.io/docker/build/monitorr/monitorr.svg?maxAge=2592000)](https://hub.docker.com/r/monitorr/monitorr/)
 
 ### **Logarr**: [![GitHub Master-release](https://img.shields.io/github/release/monitorr/logarr.svg?style=flat)](https://github.com/monitorr/logarr/releases) [![Docker build](https://img.shields.io/docker/build/monitorr/logarr.svg?maxAge=2592000)](https://hub.docker.com/r/monitorr/logarr/)
 
