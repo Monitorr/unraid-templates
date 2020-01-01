@@ -17,7 +17,7 @@
     </Overview>
     <Category>Tools:</Category>
     <WebUI>http://[IP]:[PORT:80]</WebUI>
-    <Icon>https://github.com/Monitorr/Monitorr/raw/master/assets/img/monitorr.png</Icon>
+    <Icon>https://raw.githubusercontent.com/Monitorr/Logos/master/Monitorr_BG_Black.png</Icon>
     <ExtraParams>--restart=on-failure</ExtraParams>
     <Networking>
         <Mode>bridge</Mode>
