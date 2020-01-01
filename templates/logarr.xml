@@ -14,7 +14,7 @@
     </Overview>
     <Category>Tools</Category>
     <WebUI>http://[IP]:[PORT:80]</WebUI>
-    <Icon>https://github.com/Monitorr/Logos/raw/master/logo_black_glow_text_logarr.png</Icon>
+    <Icon>https://raw.githubusercontent.com/Monitorr/Logos/master/logo_black_glow_text_logarr.png</Icon>
     <DonateText>Buy us a beer!</DonateText>
     <DonateLink>https://paypal.me/monitorrapp</DonateLink>
     <Description>Self-hosted, single-page, log consolidation tool written in PHP&#xD;
