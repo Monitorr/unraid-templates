@@ -1,26 +1,21 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
     <TemplateURL>https://raw.githubusercontent.com/Monitorr/unraid-templates/master/templates/logarr.xml</TemplateURL>
     <Name>Logarr</Name>
-    <Repository>monitorr/logarr</Repository>
+    <Description>Self-hosted, single-page, log consolidation tool written in PHP&#xD; &#xD; [br][br]&#xD; </Description>
+    <Overview>Self-hosted, single-page, log consolidation tool written in PHP </Overview>
     <Registry>https://hub.docker.com/r/monitorr/logarr/</Registry>
-    <Network>bridge</Network>
-    <Privileged>false</Privileged>
-    <Support>https://github.com/Monitorr/logarr/issues/</Support>
+    <Repository>monitorr/logarr</Repository>
     <Project>https://github.com/Monitorr/logarr/</Project>
-    <Overview>Self-hosted, single-page, log consolidation tool written in PHP&#xD;
-  &#xD;
-  [br][br]&#xD;
-    </Overview>
-    <Category>Tools</Category>
-    <WebUI>http://[IP]:[PORT:80]</WebUI>
+    <Support>https://github.com/Monitorr/logarr/issues/</Support>
+    <Category>Tools:</Category>
     <Icon>https://raw.githubusercontent.com/Monitorr/Logos/master/logo_black_glow_text_logarr.png</Icon>
     <DonateText>Buy us a beer!</DonateText>
     <DonateLink>https://paypal.me/monitorrapp</DonateLink>
-    <Description>Self-hosted, single-page, log consolidation tool written in PHP&#xD;
-  &#xD;
-  [br][br]&#xD;
-    </Description>
+    <DonateImg>https://img.shields.io/badge/Donate-PayPal-green.svg</DonateImg>
+    <Privileged>false</Privileged>
+    <Network>bridge</Network>
+    <WebUI>http://[IP]:[PORT:80]</WebUI>
     <Networking>
         <Mode>bridge</Mode>
         <Publish>
