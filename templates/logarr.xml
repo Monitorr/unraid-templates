@@ -2,14 +2,14 @@
 <Container version="2">
     <TemplateURL>https://raw.githubusercontent.com/Monitorr/unraid-templates/master/templates/logarr.xml</TemplateURL>
     <Name>Logarr</Name>
-    <Description>Self-hosted, single-page, log consolidation tool written in PHP&#xD; &#xD; [br][br]&#xD; </Description>
-    <Overview>Self-hosted, single-page, log consolidation tool written in PHP </Overview>
+    <Description>Logarr is a self-hosted, single-page, log consolidation tool written in PHP&#xD; &#xD; [br][br]&#xD; </Description>
+    <Overview>Logarr is a self-hosted, single-page, log consolidation tool written in PHP </Overview>
     <Registry>https://hub.docker.com/r/monitorr/logarr/</Registry>
     <Repository>monitorr/logarr</Repository>
     <Project>https://github.com/Monitorr/logarr/</Project>
-    <Support>https://github.com/Monitorr/logarr/issues/</Support>
-    <Category>Tools:</Category>
-    <Icon>https://raw.githubusercontent.com/Monitorr/Logos/master/logo_black_glow_text_logarr.png</Icon>
+    <Support>https://github.com/Monitorr/logarr/wiki</Support>
+    <Category>Tools: Productivity: Other:</Category>
+    <Icon>https://raw.githubusercontent.com/Monitorr/Logos/master/logo_black_glow_text_logarr-crop.png</Icon>
     <DonateText>Buy us a beer!</DonateText>
     <DonateLink>https://paypal.me/monitorrapp</DonateLink>
     <DonateImg>https://img.shields.io/badge/Donate-PayPal-green.svg</DonateImg>
@@ -20,7 +20,7 @@
         <Mode>bridge</Mode>
         <Publish>
             <Port>
-                <HostPort>80</HostPort>
+                <HostPort></HostPort>
                 <ContainerPort>80</ContainerPort>
                 <Protocol>tcp</Protocol>
             </Port>
