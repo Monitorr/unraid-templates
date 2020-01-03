@@ -2,7 +2,7 @@
 <Container version="2">
     <TemplateURL>https://raw.githubusercontent.com/Monitorr/unraid-templates/master/templates/logarr.xml</TemplateURL>
     <Name>Logarr</Name>
-    <Description>Logarr is a self-hosted, single-page, log consolidation tool written in PHP&#xD; &#xD; [br][br]&#xD; </Description>
+    <Description>Logarr is a self-hosted, single-page, log consolidation tool written in PHP </Description>
     <Overview>Logarr is a self-hosted, single-page, log consolidation tool written in PHP </Overview>
     <Registry>https://hub.docker.com/r/monitorr/logarr/</Registry>
     <Repository>monitorr/logarr</Repository>
