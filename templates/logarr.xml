@@ -35,6 +35,4 @@
     </Data>
     <Environment/>
     <Labels/>
-    <Config Name="WebUI" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">80</Config>
-    <Config Name="Config" Target="/app" Default="/mnt/user/appdata/logarr" Mode="rw" Description="Container Path: /app" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/appdata/logarr</Config>
 </Container>
