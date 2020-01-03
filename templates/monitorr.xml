@@ -2,22 +2,21 @@
 <Container>
     <TemplateURL>https://raw.githubusercontent.com/Monitorr/unraid-templates/master/templates/monitorr.xml</TemplateURL>
     <Name>Monitorr</Name>
+    <Description>Monitorr is a self-hosted PHP-based web platform that displays the status of any webapp or service in real time.</Description>
+    <Overview>Monitorr is a self-hosted PHP-based web platform that displays the status of any webapp or service in real time.</Overview>
+    <Registry>https://hub.docker.com/r/monitorr/monitorr/</Registry>
     <Repository>monitorr/monitorr</Repository>
-    <Registry>https://hub.docker.com/r/monitorr/monitorr/~/dockerfile/</Registry>
     <Project>https://github.com/Monitorr/Monitorr/</Project>
+    <Support>https://github.com/Monitorr/monitorr/wiki</Support>
+    <Category>Tools: Network:Web Network:Proxy Network:Management Network:Other</Category>
+    <Icon>https://raw.githubusercontent.com/Monitorr/Logos/master/logo_black_glow_text_monitorr_Crop.png</Icon>
+    <DonateText>Buy us a beer!</DonateText>
+    <DonateLink>https://paypal.me/monitorrapp</DonateLink>
+    <DonateImg>https://img.shields.io/badge/Donate-PayPal-green.svg</DonateImg>
+    <Privileged>false</Privileged>
     <Network>bridge</Network>
     <BindTime>true</BindTime>
-    <Privileged>false</Privileged>
-    <Support>https://github.com/Monitorr/Monitorr/issues/new</Support>
-    <Description>Monitorr is a webfront to live display the status of any webapp or service[br][br]&#xD; &#xD; See full configuration instructions in the WiKi: https://github.com/Monitorr/Monitorr/wiki[br]&#xD; [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
-		[b]8700[/b] Port for Monitorr's webui [br]&#xD; [b]/app[/b] Location for storing configuration files[br]
-    </Description>
-    <Overview>Monitorr is a webfront to live display the status of any webapp or service[br][br]&#xD; &#xD; See full configuration instructions in the WiKi: https://github.com/Monitorr/Monitorr/wiki[br]&#xD; [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
-		[b]8700[/b] Port for Monitorr's webui [br]&#xD; [b]/app[/b] Location for storing configuration files[br]
-    </Overview>
-    <Category>Tools:</Category>
     <WebUI>http://[IP]:[PORT:80]</WebUI>
-    <Icon>https://raw.githubusercontent.com/Monitorr/Logos/master/logo_black_glow_text_monitorr_Crop.png</Icon>
     <ExtraParams>--restart=on-failure</ExtraParams>
     <Networking>
         <Mode>bridge</Mode>
